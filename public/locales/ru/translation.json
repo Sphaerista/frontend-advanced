@@ -1,5 +1,6 @@
 {
   "Welcome to React": "привет в реакт",
   "language": "Русский",
-  "Page not found": "Страница не найдена"
+  "Page not found": "Страница не найдена",
+  "Page Error": "Непредвиденная ошибка"
 }
