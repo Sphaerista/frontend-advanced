@@ -2,5 +2,7 @@
   "Welcome to React": "Welcome to React",
   "language": "English",
   "Page not found": "Page not found",
-  "Page Error": "Unexpected Error"
+  "Page Error": "Unexpected Error",
+  "hide": "hide",
+  "show": "show"
 }
