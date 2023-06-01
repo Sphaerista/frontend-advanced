@@ -36,5 +36,17 @@
       "}"
     ],
     "description": "Создать React-компонент по умолчанию. Импортируется scss-модуль и функция для работы c классами classNames."
+  },
+  "Create test": {
+    "scope": "typescript, typescriptreact",
+    "prefix": ["crtt"],
+    "body": [
+      "describe('$TM_FILENAME_BASE', () => {",
+      " test('$1', () => {",
+      " expect().toEqual()",
+      " })",
+      "})"
+    ],
+    "description": "Create template test"
   }
 }

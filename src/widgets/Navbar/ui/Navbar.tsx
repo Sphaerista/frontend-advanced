@@ -4,6 +4,8 @@ import cls from "./Navbar.module.scss";
 import { Modal } from "shared/ui/Modal/Modal";
 import { useTranslation } from "react-i18next";
 import { Button, ThemeButton } from "shared/ui/Button/Button";
+import { useSelector } from "react-redux";
+import { getCounterValue } from "entities/Counter/model/selectors/getCounterValue/getCounterValue";
 
 interface NavbarProps {
   className?: string;
