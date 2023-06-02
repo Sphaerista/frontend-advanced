@@ -6,5 +6,7 @@
   "short_lang": "Ру",
   "home": "Главная",
   "about": "О сайте",
-  "login": "Войти"
+  "login": "Войти",
+  "username": "Пользователь",
+  "password": "Пароль"
 }

@@ -17,6 +17,7 @@ export const Modal: React.FC<ModalProps> = (props) => {
   const { className, children, isOpen, onClose } = props;
 
   const [isClosing, setIsClosing] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
   const timeRef = useRef<ReturnType<typeof setTimeout>>();
 
   const { theme } = useTheme();
@@ -35,6 +36,7 @@ export const Modal: React.FC<ModalProps> = (props) => {
       // setIsClosing(true);
       // timeRef.current = setTimeout(() => {
       onClose();
+      setIsMounted(false);
       //   setIsClosing(false);
       // }, ANIMATION_DELAY);
     }
@@ -51,6 +53,12 @@ export const Modal: React.FC<ModalProps> = (props) => {
 
   useEffect(() => {
     if (isOpen) {
+      setIsMounted(true);
+    }
+  }, [isOpen]);
+
+  useEffect(() => {
+    if (isOpen) {
       window.addEventListener("keydown", onKeyDown);
     }
     return () => {
@@ -58,6 +66,10 @@ export const Modal: React.FC<ModalProps> = (props) => {
       window.removeEventListener("keydown", onKeyDown);
     };
   }, [isOpen, onKeyDown]);
+
+  if (!isMounted) {
+    return null;
+  }
 
   return (
     <Portal>

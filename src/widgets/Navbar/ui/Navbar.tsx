@@ -4,8 +4,7 @@ import cls from "./Navbar.module.scss";
 import { Modal } from "shared/ui/Modal/Modal";
 import { useTranslation } from "react-i18next";
 import { Button, ThemeButton } from "shared/ui/Button/Button";
-import { useSelector } from "react-redux";
-import { getCounterValue } from "entities/Counter/model/selectors/getCounterValue/getCounterValue";
+import { LoginModal } from "features/AuthByUsername/ui";
 
 interface NavbarProps {
   className?: string;
@@ -27,12 +26,7 @@ export const Navbar = ({ className }: NavbarProps) => {
       >
         {t("login")}
       </Button>
-      <Modal isOpen={isOpen} onClose={onToggleModal}>
-        asset main.9e4ea0e053a76390b01a.hot-update.json 28 bytes [emitted]
-        [immutable] [hmr] Entrypoint main 4.15 MiB =
-        main.6a2efda5bbf211b31ab0.js 4.14 MiB
-        main.9e4ea0e053a76390b01a.hot-update.js 10.1 KiB
-      </Modal>
+      <LoginModal isOpen={isOpen} onClose={onToggleModal} />
     </div>
   );
 };

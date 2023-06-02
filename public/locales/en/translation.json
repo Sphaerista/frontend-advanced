@@ -6,5 +6,7 @@
   "short_lang": "En",
   "home": "Home",
   "about": "About",
-  "login": "Login"
+  "login": "Login",
+  "username": "Username",
+  "password": "Password"
 }
