@@ -6,16 +6,17 @@ import { Input } from "shared/ui/Input/Input";
 
 interface LoginFormProps {
   className?: string;
+  autofocus?: boolean;
 }
 
 export const LoginForm: React.FC<LoginFormProps> = (props) => {
-  const { className } = props;
+  const { className, autofocus } = props;
   const { t } = useTranslation();
 
   return (
     <div className={classNames(cls.loginForm, {}, [className])}>
       <Input
-        autoFocus
+        autofocus={autofocus}
         className={cls.input}
         type="text"
         placeholder={t("username")}

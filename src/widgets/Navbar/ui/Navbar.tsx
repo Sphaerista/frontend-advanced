@@ -13,9 +13,11 @@ interface NavbarProps {
 export const Navbar = ({ className }: NavbarProps) => {
   const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
+  const [autofocus, setAutofocus] = useState(false);
 
   const onToggleModal = useCallback(() => {
     setIsOpen((prev) => !prev);
+    setAutofocus((prev) => !prev);
   }, []);
   return (
     <div className={classNames(cls.navbar, {}, [className])}>
@@ -26,7 +28,11 @@ export const Navbar = ({ className }: NavbarProps) => {
       >
         {t("login")}
       </Button>
-      <LoginModal isOpen={isOpen} onClose={onToggleModal} />
+      <LoginModal
+        isOpen={isOpen}
+        onClose={onToggleModal}
+        autofocus={autofocus}
+      />
     </div>
   );
 };

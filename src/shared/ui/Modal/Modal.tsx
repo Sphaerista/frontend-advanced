@@ -67,10 +67,6 @@ export const Modal: React.FC<ModalProps> = (props) => {
     };
   }, [isOpen, onKeyDown]);
 
-  if (!isMounted) {
-    return null;
-  }
-
   return (
     <Portal>
       <div className={classNames(cls.modal, mods, [className, theme])}>
