@@ -7,6 +7,9 @@
   "home": "Главная",
   "about": "О сайте",
   "login": "Войти",
+  "logout": "Выйти",
   "username": "Пользователь",
-  "password": "Пароль"
+  "password": "Пароль",
+  "auth form": "Форма авторизации",
+  "wrong credentials": "Введены неверные данные"
 }

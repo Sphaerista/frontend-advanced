@@ -7,6 +7,9 @@
   "home": "Home",
   "about": "About",
   "login": "Login",
+  "logout": "Logout",
   "username": "Username",
-  "password": "Password"
+  "password": "Password",
+  "auth form": "Authorization form",
+  "wrong credentials": "Wrong credentials"
 }
