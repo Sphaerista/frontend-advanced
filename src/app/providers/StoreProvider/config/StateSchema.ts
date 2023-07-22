@@ -6,6 +6,7 @@ import {
   ReducersMapObject,
 } from "@reduxjs/toolkit";
 import { CounterSchema } from "entities/Counter";
+import { ProfileSchema } from "entities/Profile";
 import { UserSchema } from "entities/User";
 import { loginSchema } from "features/AuthByUsername/ui";
 
@@ -15,6 +16,7 @@ export interface StateSchema {
 
   // Async reuducer (?? not sure)
   loginForm?: loginSchema;
+  profile?: ProfileSchema;
 }
 
 export type StateSchemaKey = keyof StateSchema;

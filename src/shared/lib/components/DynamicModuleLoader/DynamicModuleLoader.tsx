@@ -37,7 +37,7 @@ export const DynamicModuleLoader: React.FC<DynamicModuleLoaderProps> = (
         Object.entries(reducers).forEach(
           ([name, reducer]: ReducersListEntry) => {
             store.reducerManager.add(name, reducer);
-            dispatch({ type: `@INIT ${name}` });
+            dispatch({ type: `@destroy ${name}` });
           }
         );
       }

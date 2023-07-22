@@ -7,5 +7,11 @@
   ],
   "comments": [{ "id": "1", "body": "some comment", "postId": "1" }],
   "users": [{ "id": "1", "username": "aa", "password": "1234" }],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "firstname": "Ivan",
+    "lastname": "Petrov",
+    "age": 48,
+    "country": "Russia",
+    "city": "Moscow"
+  }
 }

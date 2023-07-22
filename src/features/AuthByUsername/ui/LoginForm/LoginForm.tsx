@@ -3,7 +3,7 @@ import cls from "./LoginForm.module.scss";
 import { useTranslation } from "react-i18next";
 import { Button, ThemeButton } from "shared/ui/Button/Button";
 import { Input } from "shared/ui/Input/Input";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import { loginActions, loginReducer } from "../../model/slice/loginSlice";
 import { memo, useCallback, useEffect } from "react";
 import { loginByUsername } from "features/AuthByUsername/model/services/loginByUsername/loginByUsername";
@@ -17,6 +17,7 @@ import {
   DynamicModuleLoader,
   ReducersList,
 } from "shared/lib/components/DynamicModuleLoader/DynamicModuleLoader";
+import { useAppDispatch } from "shared/lib/hooks/useAppDispatch";
 
 export interface LoginFormProps {
   className?: string;
@@ -30,7 +31,7 @@ const initialReudcers: ReducersList = {
 const LoginForm: React.FC<LoginFormProps> = memo((props) => {
   const { className, autofocus } = props;
   const { t } = useTranslation();
-  const dispatch = useDispatch();
+  const dispatch = useAppDispatch();
 
   const username = useSelector(getLoginUsername);
   const password = useSelector(getLoginPassword);

@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from "react";
+import React, { memo, useCallback, useState } from "react";
 import { classNames } from "shared/lib/classNames/classNames";
 import cls from "./Navbar.module.scss";
 import { useTranslation } from "react-i18next";
@@ -12,7 +12,7 @@ interface NavbarProps {
   className?: string;
 }
 
-export const Navbar = ({ className }: NavbarProps) => {
+export const Navbar = memo(({ className }: NavbarProps) => {
   const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const [autofocus, setAutofocus] = useState(false);
@@ -57,6 +57,6 @@ export const Navbar = ({ className }: NavbarProps) => {
       />
     </div>
   );
-};
+});
 
 // crfc

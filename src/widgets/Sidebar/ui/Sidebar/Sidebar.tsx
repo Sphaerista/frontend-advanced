@@ -1,23 +1,19 @@
 import { classNames } from "shared/lib/classNames/classNames";
-import { useState } from "react";
+import { memo, useState } from "react";
 import { ThemeSwitcher } from "widgets/ThemeSwitcher";
 import { LangSwitcher } from "widgets/LangSwitcher/LangSwitcher";
 import { Button, SizeButton, ThemeButton } from "shared/ui/Button/Button";
-import { AppLink, AppLinkTheme } from "shared/ui/AppLink/AppLink";
-import { RoutePath } from "shared/config/routeConfig/routeConfig";
 import cls from "./Sidebar.module.scss";
-import Home from "../../../../shared/assets/icons/home_icon.svg";
-import About from "../../../../shared/assets/icons/about_icon.svg";
-import { useTranslation } from "react-i18next";
+import { SidebarItemsList } from "widgets/Sidebar/model/items";
+import { SidebarItem } from "../SidebarItem/SidebarItem";
 
 interface SidebarProps {
   className?: string;
 }
 
-export const Sidebar: React.FC<SidebarProps> = (props) => {
+export const Sidebar: React.FC<SidebarProps> = memo((props) => {
   const { className } = props;
   const [collapsed, setCollapsed] = useState(false);
-  const { t } = useTranslation();
 
   const onToogle = () => {
     setCollapsed((prev) => !prev);
@@ -41,7 +37,11 @@ export const Sidebar: React.FC<SidebarProps> = (props) => {
         {collapsed ? ">" : "<"}
       </Button>
       <div className={cls.items}>
-        <AppLink
+        {SidebarItemsList.map((item) => (
+          <SidebarItem key={item.path} item={item} collapsed={collapsed} />
+        ))}
+
+        {/* <AppLink
           theme={AppLinkTheme.SECONDARY}
           to={RoutePath.main}
           className={cls.item}
@@ -56,7 +56,7 @@ export const Sidebar: React.FC<SidebarProps> = (props) => {
         >
           <About className={cls.icon} />
           <span className={cls.link}>{t("about")}</span>
-        </AppLink>
+        </AppLink> */}
       </div>
       <div className={cls.switchers}>
         <ThemeSwitcher />
@@ -64,4 +64,4 @@ export const Sidebar: React.FC<SidebarProps> = (props) => {
       </div>
     </div>
   );
-};
+});

@@ -28,12 +28,6 @@
   .lang {
     margin-left: 0px;
   }
-
-  .link {
-    transition: opacity 0.2s;
-    opacity: 0;
-    width: 0;
-  }
 }
 
 .collapseBtn {
@@ -47,15 +41,4 @@
   margin-left: 30px;
   display: flex;
   flex-direction: column;
-}
-
-.item {
-  margin-top: 10px;
-  display: flex;
-  align-items: center;
-}
-
-.link {
-  margin-left: 10px;
-  opacity: 1;
 }
