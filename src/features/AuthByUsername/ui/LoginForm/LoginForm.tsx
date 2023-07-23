@@ -38,6 +38,7 @@ const LoginForm: React.FC<LoginFormProps> = memo((props) => {
   const error = useSelector(getLoginError);
   const isLoading = useSelector(getLoginIsLoading);
 
+  // check with the Timur's template
   const onLoginClick = useCallback(() => {
     dispatch(loginByUsername({ username, password }));
   }, [dispatch, username, password]);

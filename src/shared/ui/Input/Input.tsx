@@ -28,11 +28,11 @@ export const Input: React.FC<InputProps> = memo((props) => {
   const onChangeHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
     onChange?.(e.target.value);
   };
-  const setFocus = useRef(null);
+  const setFocus = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     if (autofocus) {
-      setTimeout(() => setFocus.current.focus(), 300);
+      setTimeout(() => setFocus?.current?.focus(), 300);
     }
   }, [autofocus]);
 
