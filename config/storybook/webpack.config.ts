@@ -39,6 +39,15 @@ export default ({ config }: { config: webpack.Configuration }) => {
       })
     );
   }
+  if (config!.resolve!.modules) {
+    config!.resolve!.modules = [
+      path.resolve(__dirname, "../../src"),
+      "node_modules",
+    ];
+  }
+  config!.resolve!.alias = {
+    entities: path.resolve(__dirname, "..", "..", "src", "entities"),
+  };
 
   return config;
 };

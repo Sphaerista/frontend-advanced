@@ -1,6 +1,12 @@
 {
   "Profile": "Profile",
   "Edit": "Edit",
+  "Save": "Save",
+  "Cancel": "Cancel",
   "Firstname": "Firstname",
-  "Lastname": "Lastname"
+  "Lastname": "Lastname",
+  "Age": "Age",
+  "Country": "Country",
+  "City": "City",
+  "Avatar": "Avatar"
 }

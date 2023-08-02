@@ -11,5 +11,8 @@
   "username": "Username",
   "password": "Password",
   "auth form": "Authorization form",
-  "wrong credentials": "Wrong credentials"
+  "wrong credentials": "Wrong credentials",
+  "Error occured": "Error occured",
+  "Please refresh the page": "Please refresh the page",
+  "Country": "Country"
 }

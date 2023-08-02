@@ -4,6 +4,8 @@ import { t } from "i18next";
 import { SidebarItemType } from "../../model/items";
 import { memo } from "react";
 import { classNames } from "shared/lib/classNames/classNames";
+import { getUserAuthData } from "entities/User";
+import { useSelector } from "react-redux";
 
 interface SidebarItemProps {
   item: SidebarItemType;
@@ -12,6 +14,12 @@ interface SidebarItemProps {
 
 export const SidebarItem: React.FC<SidebarItemProps> = memo((props) => {
   const { item, collapsed } = props;
+
+  const isAuth = useSelector(getUserAuthData);
+
+  if (item.authOnly && !isAuth) {
+    return null;
+  }
 
   return (
     <AppLink

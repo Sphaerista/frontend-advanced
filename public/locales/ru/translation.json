@@ -11,5 +11,8 @@
   "username": "Пользователь",
   "password": "Пароль",
   "auth form": "Форма авторизации",
-  "wrong credentials": "Введены неверные данные"
+  "wrong credentials": "Введены неверные данные",
+  "Error occured": "Произошла ошибка",
+  "Please refresh the page": "Обнови страницу",
+  "Country": "Страна"
 }
