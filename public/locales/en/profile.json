@@ -8,5 +8,10 @@
   "Age": "Age",
   "Country": "Country",
   "City": "City",
-  "Avatar": "Avatar"
+  "Avatar": "Avatar",
+  "Server error": "Server error",
+  "No data": "No data",
+  "Wrong user data": "Wrong user data",
+  "Wrong age": "Wrong age",
+  "Wrong country": "Wrong country"
 }

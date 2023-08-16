@@ -7,3 +7,5 @@ export { fetchProfileData } from "./model/services/fetchProfileData/fetchProfile
 export { updateProfileData } from "./model/services/updateProfileData/updateProfileData";
 
 export { ProfileCard } from "./ui/ProfileCard/ProfileCard";
+
+export { getProfileValidateErrors } from "./model/selectors/getProfileValidateErrors/getProfileValidateErrors";
