@@ -6,11 +6,12 @@ import {
   routeConfig,
 } from "shared/config/routeConfig/routeConfig";
 import { RequireAuth } from "app/providers/router/ui/RequireAuth";
+import { Loader } from "shared/ui/Loader/Loader";
 
 const AppRouter = () => {
   const renderWithWrapper = useCallback((route: AppRoutesProps) => {
     const element = (
-      <Suspense fallback={"<PageLoader />"}>
+      <Suspense fallback={<Loader />}>
         <div className="page-wrapper">{route.element}</div>
       </Suspense>
     );

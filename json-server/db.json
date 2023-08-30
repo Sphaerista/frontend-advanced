@@ -36,10 +36,10 @@
     }
   ],
   "profile": {
-    "firstname": "Ivan12",
+    "firstname": "Ivan",
     "lastname": "Petrov",
     "age": 12,
-    "country": "Belarus",
+    "country": "Russia",
     "city": "Moscow",
     "avatar": "https://ichef.bbci.co.uk/images/ic/1920x1080/p09ybwrc.jpg"
   }
