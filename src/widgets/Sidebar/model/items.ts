@@ -31,14 +31,14 @@ export const SidebarItemsList: SidebarItemType[] = [
   },
   {
     path: RoutePath.articles,
-    icon: Articles,
+    icon: ArticleDetails,
     text: "Articles",
     authOnly: true,
   },
-  {
-    path: RoutePath.article_details,
-    icon: ArticleDetails,
-    text: "Article Details",
-    authOnly: true,
-  },
+  // {
+  //   path: RoutePath.article_details,
+  //   icon: ArticleDetails,
+  //   text: "Article Details",
+  //   authOnly: true,
+  // },
 ];

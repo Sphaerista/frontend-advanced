@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Text, ThemeText } from "./Text";
+import { SizeText, Text, ThemeText } from "./Text";
 import ThemeDecorator from "shared/config/Decorators/ThemeDecorator";
 import { Theme } from "app/providers/ThemeProvider";
 
@@ -17,6 +17,14 @@ export const Primary: Story = {
   args: {
     title: "Title",
     text: "Text",
+  },
+};
+
+export const SizeXL: Story = {
+  args: {
+    title: "Title",
+    text: "Text",
+    size: SizeText.XL,
   },
 };
 
