@@ -1,0 +1,43 @@
+.articleDetails {
+  min-height: 100%;
+}
+
+.avatar {
+  margin: 0 auto;
+}
+
+.title {
+  margin-top: 20px;
+}
+
+.skeleton {
+  margin-top: 15px;
+}
+
+.articleInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+.avatarWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.block {
+  margin-top: 16px;
+}
+/*# sourceMappingURL=ArticleDetails.module.css.map */

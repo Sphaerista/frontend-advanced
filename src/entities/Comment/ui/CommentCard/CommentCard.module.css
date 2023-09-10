@@ -1,0 +1,22 @@
+.commentCard {
+  padding: 10px;
+  border: 1px dotted var(--primary-color);
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.text {
+  margin-top: 10px;
+}
+
+.username {
+  margin-left: 10px;
+}
+/*# sourceMappingURL=CommentCard.module.css.map */

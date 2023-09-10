@@ -1,0 +1,23 @@
+.inputWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.placeholder {
+  margin-right: 5px;
+}
+
+.input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px dashed var(--primary-color);
+  outline: none;
+  color: var(--primary-color);
+  width: 100%;
+}
+
+.readonly {
+  opacity: 0.6;
+}
+/*# sourceMappingURL=Input.module.css.map */

@@ -1,0 +1,12 @@
+.app_light_theme {
+  --bg-color: rgb(235, 235, 235);
+  --inverted-bg-color: rgb(0, 0, 0);
+  --primary-color: rgb(0, 65, 187);
+  --secondary-color: rgb(0, 162, 255);
+  --inverted-primary-color: rgb(0, 187, 0);
+  --inverted-secondary-color: rgb(0, 255, 0);
+  --skeleton-color: rgb(0, 187, 0);
+  --skeleton-shadow: rgb(0, 255, 0);
+  --code-bg: rgb(252, 247, 247);
+}
+/*# sourceMappingURL=normal.css.map */

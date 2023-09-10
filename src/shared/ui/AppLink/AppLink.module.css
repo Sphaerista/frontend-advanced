@@ -1,0 +1,16 @@
+.appLink {
+  color: var(--primary-color);
+}
+
+.appLink:hover {
+  opacity: 0.8;
+}
+
+.primary {
+  color: var(--primary-color);
+}
+
+.inverted {
+  color: var(--inverted-primary-color);
+}
+/*# sourceMappingURL=AppLink.module.css.map */

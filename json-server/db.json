@@ -116,7 +116,9 @@
     {
       "id": "1",
       "username": "aa",
-      "password": "1234"
+      "password": "1234",
+      "role": "ADMIN",
+      "avatar": "https://images.saymedia-content.com/.image/t_share/MTkwOTEwMDc4MTQ3MTEwNDg1/thomas-sankara-the-amazing-man-who-was-killed-for-acting-on-his-vision-for-africa.jpg"
     }
   ],
   "profile": {
@@ -125,6 +127,6 @@
     "age": 12,
     "country": "Russia",
     "city": "Moscow",
-    "avatar": "https://ichef.bbci.co.uk/images/ic/1920x1080/p09ybwrc.jpg"
+    "avatar": "https://images.saymedia-content.com/.image/t_share/MTkwOTEwMDc4MTQ3MTEwNDg1/thomas-sankara-the-amazing-man-who-was-killed-for-acting-on-his-vision-for-africa.jpg"
   }
 }
