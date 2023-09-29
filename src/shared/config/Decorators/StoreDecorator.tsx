@@ -4,6 +4,7 @@ import { profileReducer } from "entities/Profile";
 import { loginReducer } from "features/AuthByUsername/model/slice/loginSlice";
 import { ReducersList } from "shared/lib/components/DynamicModuleLoader/DynamicModuleLoader";
 
+// check existence of all decorators
 const defaultAsyncReducers: ReducersList = {
   loginForm: loginReducer,
   profile: profileReducer,
