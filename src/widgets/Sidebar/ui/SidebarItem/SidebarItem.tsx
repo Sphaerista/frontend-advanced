@@ -1,7 +1,7 @@
 import cls from "./SidebarItem.module.scss";
 import { AppLinkTheme, AppLink } from "shared/ui/AppLink/AppLink";
 import { t } from "i18next";
-import { SidebarItemType } from "../../model/items";
+import { SidebarItemType } from "widgets/Sidebar/model/types/sidebar";
 import { memo } from "react";
 import { classNames } from "shared/lib/classNames/classNames";
 import { getUserAuthData } from "entities/User";
