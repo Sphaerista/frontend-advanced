@@ -20,7 +20,7 @@ const getSkeletons = (view: ArticleView) => {
 };
 
 export const ArticleList: React.FC<ArticleListProps> = (props) => {
-  const { className, articles, isLoading, view = ArticleView.BIG } = props;
+  const { className, articles, isLoading, view = ArticleView.SMALL } = props;
 
   if (isLoading) {
     return (

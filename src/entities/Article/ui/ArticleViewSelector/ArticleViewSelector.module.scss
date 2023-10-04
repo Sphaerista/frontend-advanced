@@ -1,0 +1,5 @@
+.isSelected > * {
+  fill: var(--inverted-bg-color);
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+}
