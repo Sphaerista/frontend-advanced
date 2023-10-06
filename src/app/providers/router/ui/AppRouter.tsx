@@ -10,11 +10,7 @@ import { Loader } from "shared/ui/Loader/Loader";
 
 const AppRouter = () => {
   const renderWithWrapper = useCallback((route: AppRoutesProps) => {
-    const element = (
-      <Suspense fallback={<Loader />}>
-        <div className="page-wrapper">{route.element}</div>
-      </Suspense>
-    );
+    const element = <Suspense fallback={<Loader />}>{route.element}</Suspense>;
     return (
       <Route
         key={route.path}

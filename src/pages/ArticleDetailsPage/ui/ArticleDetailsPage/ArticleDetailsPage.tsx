@@ -25,6 +25,7 @@ import { AddCommentForm } from "features/addCommentForm";
 import { addCommentForArticle } from "../../model/services/addCommentForArticle/addCommentForArticle";
 import { Button, ThemeButton } from "shared/ui/Button/Button";
 import { RoutePath } from "shared/config/routeConfig/routeConfig";
+import { Page } from "shared/ui/Page/Page";
 
 interface ArticleDetailsPageProps {
   className?: string;
@@ -59,15 +60,15 @@ const ArticleDetailsPage: React.FC<ArticleDetailsPageProps> = (props) => {
 
   if (!id) {
     return (
-      <div className={classNames(cls.articleDetailsPage, {}, [className])}>
+      <Page className={classNames(cls.articleDetailsPage, {}, [className])}>
         {t("Article is not found ")}
-      </div>
+      </Page>
     );
   }
 
   return (
     <DynamicModuleLoader reducers={reducers} removeAfterUnmount>
-      <div className={classNames(cls.articleDetailsPage, {}, [className])}>
+      <Page className={classNames(cls.articleDetailsPage, {}, [className])}>
         <Button theme={ThemeButton.OUTLINE} onClick={onBackToList}>
           {t("Back to article list")}
         </Button>
@@ -75,7 +76,7 @@ const ArticleDetailsPage: React.FC<ArticleDetailsPageProps> = (props) => {
         <Text className={cls.commentTitle} title={t("Comments")} />
         <AddCommentForm onSendComment={onSendComment} />
         <CommentList isLoading={commentsIsLoading} comments={comments} />
-      </div>
+      </Page>
     </DynamicModuleLoader>
   );
 };
