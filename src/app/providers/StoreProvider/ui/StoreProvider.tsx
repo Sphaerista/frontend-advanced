@@ -14,13 +14,9 @@ interface StoreProviderProps {
 export const StoreProvider: React.FC<StoreProviderProps> = (props) => {
   const { children, initialState, asyncReducers } = props;
 
-  // maybe this is incorrect place for navigate
-  const navigate = useNavigate();
-
   const store = createReduxStore(
     initialState as StateSchema,
-    asyncReducers as ReducersMapObject<StateSchema>,
-    navigate
+    asyncReducers as ReducersMapObject<StateSchema>
   );
 
   return <Provider store={store}>{children}</Provider>;
