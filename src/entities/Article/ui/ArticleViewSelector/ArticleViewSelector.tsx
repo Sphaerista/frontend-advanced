@@ -37,6 +37,7 @@ export const ArticleViewSelector: React.FC<ArticleViewSelectorProps> = (
     <div className={classNames(cls.articleViewSelector, {}, [className])}>
       {viewTypes.map((viewType) => (
         <Button
+          key={viewType.view}
           theme={ThemeButton.CLEAR}
           onClick={onClick(viewType.view)}
           className={classNames("", {
