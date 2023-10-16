@@ -10,6 +10,7 @@ import { userReducer } from "entities/User";
 // import { loginReducer } from "features/AuthByUsername/ui";
 import { createReducerManager } from "./reducerManager";
 import { $api } from "shared/api/api";
+import { scrollSaveReducer } from "features/ScrollSave";
 
 export function createReduxStore(
   initialState?: StateSchema,
@@ -19,6 +20,7 @@ export function createReduxStore(
     ...asyncReducers,
     counter: counterReducer,
     user: userReducer,
+    scrollSave: scrollSaveReducer,
     // loginForm: loginReducer,
   };
 
