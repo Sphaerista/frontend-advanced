@@ -16,8 +16,21 @@
   "Please refresh the page": "Обнови страницу",
   "Country": "Страна",
   "No comments": "Комментариев нет",
+  "Articles not found": "Статьи не найдены",
   "Comment Text": "Текст комментария",
   "Send": "Отправить",
   "Read more": "Читать далее...",
-  "Back to article list": "Назад к списку"
+  "Back to article list": "Назад к списку",
+  "Sort": "Сортировать по",
+  "by": "по",
+  "ascending": "возрастанию",
+  "descending": "убыванию",
+  "bycreated": "дате создания",
+  "bytitle": "названию",
+  "byviews": "просмотрам",
+  "Search": "Поиск",
+  "ALL": "Все",
+  "ECONOMICS": "Экономика",
+  "IT": "Айти",
+  "SCIENCE": "Наука"
 }

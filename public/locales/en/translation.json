@@ -16,8 +16,21 @@
   "Please refresh the page": "Please refresh the page",
   "Country": "Country",
   "No comments": "No comments",
+  "Articles not found": "Articles not found",
   "Comment Text": "Comment Text",
   "Send": "Send",
   "Read more": "Read more...",
-  "Back to article list": "Back to article list"
+  "Back to article list": "Back to article list",
+  "Sort": "Sort by",
+  "by": "by",
+  "ascending": "ascending",
+  "descending": "descending",
+  "bycreated": "created",
+  "bytitle": "title",
+  "byviews": "views",
+  "Search": "Search",
+  "ALL": "All",
+  "ECONOMICS": "Economics",
+  "IT": "IT",
+  "SCIENCE": "Science"
 }
