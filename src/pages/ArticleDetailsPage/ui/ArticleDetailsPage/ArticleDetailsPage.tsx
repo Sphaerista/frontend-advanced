@@ -30,6 +30,7 @@ import { getArticleRecommendations } from "../../model/slices/articleDetailsPage
 import { getArticleRecommendationsIsLoading } from "../../model/selectors/recommendations";
 import { fetchArticlesRecommendations } from "../../model/services/fetchArticlesRecommendations/fetchArticlesRecommendations";
 import { articleDeatilsPageReducer } from "../../model/slices";
+import { ArticleDetailsPageHeader } from "../ArticleDetailsPageHeader/ArticleDetailsPageHeader";
 
 interface ArticleDetailsPageProps {
   className?: string;
@@ -51,11 +52,6 @@ const ArticleDetailsPage: React.FC<ArticleDetailsPageProps> = (props) => {
   );
   const commentsError = useSelector(getArticleCommentsError);
   const dispatch = useDispatch();
-  const navigate = useNavigate();
-
-  const onBackToList = useCallback(() => {
-    navigate(RoutePath.articles);
-  }, [navigate]);
 
   const onSendComment = useCallback(
     (text: string) => {
@@ -80,9 +76,7 @@ const ArticleDetailsPage: React.FC<ArticleDetailsPageProps> = (props) => {
   return (
     <DynamicModuleLoader reducers={reducers} removeAfterUnmount>
       <Page className={classNames(cls.articleDetailsPage, {}, [className])}>
-        <Button theme={ThemeButton.OUTLINE} onClick={onBackToList}>
-          {t("Back to article list")}
-        </Button>
+        <ArticleDetailsPageHeader />
         <ArticleDetails id={id} />
         <Text
           size={SizeText.L}
