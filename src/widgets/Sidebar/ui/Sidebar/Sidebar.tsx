@@ -8,6 +8,8 @@ import { SidebarItemsList } from "widgets/Sidebar/model/items";
 import { SidebarItem } from "../SidebarItem/SidebarItem";
 import { useSelector } from "react-redux";
 import { getSideBarItems } from "../../model/selectors/getSideBarItems";
+import { HStack } from "shared/ui/Stack/index";
+import { VStack } from "shared/ui/Stack/index";
 
 interface SidebarProps {
   className?: string;
@@ -47,10 +49,20 @@ export const Sidebar: React.FC<SidebarProps> = memo((props) => {
       >
         {collapsed ? ">" : "<"}
       </Button>
-      <div className={cls.items}>
+      <VStack gap="8" className={cls.items}>
         {itemsList}
+      </VStack>
 
-        {/* <AppLink
+      <div className={cls.switchers}>
+        <ThemeSwitcher />
+        <LangSwitcher short={collapsed} className={cls.lang} />
+      </div>
+    </menu>
+  );
+});
+
+{
+  /* <AppLink
           theme={AppLinkTheme.SECONDARY}
           to={RoutePath.main}
           className={cls.item}
@@ -65,12 +77,5 @@ export const Sidebar: React.FC<SidebarProps> = memo((props) => {
         >
           <About className={cls.icon} />
           <span className={cls.link}>{t("about")}</span>
-        </AppLink> */}
-      </div>
-      <div className={cls.switchers}>
-        <ThemeSwitcher />
-        <LangSwitcher short={collapsed} className={cls.lang} />
-      </div>
-    </menu>
-  );
-});
+        </AppLink> */
+}

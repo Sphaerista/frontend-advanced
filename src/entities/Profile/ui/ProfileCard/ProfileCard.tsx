@@ -9,6 +9,7 @@ import { Avatar } from "shared/ui/Avatar/Avatar";
 import { Select } from "shared/ui/Select/Select";
 import { Country } from "entities/Country/model/types/country";
 import { CountrySelect } from "entities/Country";
+import { HStack, VStack } from "shared/ui/Stack";
 
 interface ProfileCardProps {
   className?: string;
@@ -42,22 +43,30 @@ export const ProfileCard: React.FC<ProfileCardProps> = (props) => {
 
   if (isLoading) {
     return (
-      <div className={classNames("", { [cls.loading]: true }, [className])}>
+      <HStack
+        justify="center"
+        max
+        className={classNames("", { [cls.loading]: true }, [className])}
+      >
         <Loader />
-      </div>
+      </HStack>
     );
   }
 
   if (error) {
     return (
-      <div className={classNames("", {}, [className, cls.error])}>
+      <HStack
+        justify="center"
+        max
+        className={classNames("", {}, [className, cls.error])}
+      >
         <Text
           title={t("Error occured")}
           text={t("Please refresh the page")}
           theme={ThemeText.ERROR}
           align={AlignText.CENTER}
         />
-      </div>
+      </HStack>
     );
   }
 
@@ -66,55 +75,57 @@ export const ProfileCard: React.FC<ProfileCardProps> = (props) => {
   };
 
   return (
-    <div className={classNames(cls.profileCard, mods, [className])}>
-      <div className={cls.data}>
-        {data?.avatar && (
-          <div className={cls.avatarWrapper}>
-            <Avatar src={data?.avatar} />
-          </div>
-        )}
-        <Input
-          value={data?.firstname}
-          placeholder={t("Firstname")}
-          className={cls.input}
-          onChange={onChangeFirstName}
-          readonly={readonly}
-        />
-        <Input
-          value={data?.lastname}
-          placeholder={t("Lastname")}
-          className={cls.input}
-          onChange={onChangeLastName}
-          readonly={readonly}
-        />
-        <Input
-          value={data?.age}
-          placeholder={t("Age")}
-          className={cls.input}
-          onChange={onChangeAge}
-          readonly={readonly}
-        />
-        <Input
-          value={data?.avatar}
-          placeholder={t("Avatar")}
-          className={cls.input}
-          onChange={onChangeAvatar}
-          readonly={readonly}
-        />
-        <Input
-          value={data?.city}
-          placeholder={t("City")}
-          className={cls.input}
-          onChange={onChangeCity}
-          readonly={readonly}
-        />
-        <CountrySelect
-          className={cls.input}
-          value={data?.country}
-          onChange={onChangeCountry}
-          readonly={readonly}
-        />
-      </div>
-    </div>
+    <VStack
+      max
+      gap="16"
+      className={classNames(cls.profileCard, mods, [className])}
+    >
+      {data?.avatar && (
+        <HStack justify="center" max className={cls.avatarWrapper}>
+          <Avatar src={data?.avatar} />
+        </HStack>
+      )}
+      <Input
+        value={data?.firstname}
+        placeholder={t("Firstname")}
+        className={cls.input}
+        onChange={onChangeFirstName}
+        readonly={readonly}
+      />
+      <Input
+        value={data?.lastname}
+        placeholder={t("Lastname")}
+        className={cls.input}
+        onChange={onChangeLastName}
+        readonly={readonly}
+      />
+      <Input
+        value={data?.age}
+        placeholder={t("Age")}
+        className={cls.input}
+        onChange={onChangeAge}
+        readonly={readonly}
+      />
+      <Input
+        value={data?.avatar}
+        placeholder={t("Avatar")}
+        className={cls.input}
+        onChange={onChangeAvatar}
+        readonly={readonly}
+      />
+      <Input
+        value={data?.city}
+        placeholder={t("City")}
+        className={cls.input}
+        onChange={onChangeCity}
+        readonly={readonly}
+      />
+      <CountrySelect
+        className={cls.input}
+        value={data?.country}
+        onChange={onChangeCountry}
+        readonly={readonly}
+      />
+    </VStack>
   );
 };
