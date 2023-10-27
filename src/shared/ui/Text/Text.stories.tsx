@@ -20,11 +20,11 @@ export const Primary: Story = {
   },
 };
 
-export const SizeXL: Story = {
+export const SizeS: Story = {
   args: {
     title: "Title",
     text: "Text",
-    size: SizeText.XL,
+    size: SizeText.S,
   },
 };
 
