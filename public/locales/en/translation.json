@@ -8,6 +8,7 @@
   "about": "About",
   "login": "Login",
   "logout": "Logout",
+  "profile": "Profile",
   "username": "Username",
   "password": "Password",
   "auth form": "Authorization form",

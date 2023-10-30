@@ -38,7 +38,7 @@ export const CountrySelect: React.FC<CountrySelectProps> = memo((props) => {
       value={value}
       items={options}
       onChange={onChangeHandler}
-      direction={"top"}
+      direction={"top right"}
       label={t("Country")}
       className={classNames("", {}, [className])}
     />
