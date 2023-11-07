@@ -1,8 +1,6 @@
-import axios from "axios";
-import { fetchProfileData } from "./fetchProfileData";
-import { userActions } from "entities/User";
 import { TestAsyncThunk } from "shared/lib/tests/testAsyncThunk";
 import { Country } from "entities/Country";
+import { fetchProfileData } from "./fetchProfileData";
 
 const data = {
   firstname: "aa",

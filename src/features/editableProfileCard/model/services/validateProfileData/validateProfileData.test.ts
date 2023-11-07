@@ -1,9 +1,6 @@
-import axios from "axios";
 import { validateProfileData } from "./validateProfileData";
-import { userActions } from "entities/User";
-import { TestAsyncThunk } from "shared/lib/tests/testAsyncThunk";
 import { Country } from "entities/Country";
-import { ValidateProfileError } from "../../types/profile";
+import { ValidateProfileError } from "../../types/editableProfileCardSchema";
 
 const data = {
   firstname: "aa",
