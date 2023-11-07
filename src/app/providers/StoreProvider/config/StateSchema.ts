@@ -8,18 +8,20 @@ import {
 import { AxiosInstance } from "axios";
 import { ArticleDetailsSchema } from "entities/Article";
 import { CounterSchema } from "entities/Counter";
-import { ProfileSchema } from "entities/Profile";
 import { UserSchema } from "entities/User";
 import { loginSchema } from "features/AuthByUsername/ui";
 import { ScrollSaveSchema } from "features/ScrollSave";
 import { AddCommentFormSchema } from "features/addCommentForm";
+import { ProfileSchema } from "features/editableProfileCard";
 import { ArticleDeatilsPageSchema } from "pages/ArticleDetailsPage";
 import { ArticlesPageSchema } from "pages/ArticlesPage";
+import { rtkApi } from "shared/api/rtkApi";
 
 export interface StateSchema {
   counter: CounterSchema;
   user: UserSchema;
   scrollSave: ScrollSaveSchema;
+  [rtkApi.reducerPath]: ReturnType<typeof rtkApi.reducer>;
 
   // Async reuducer (?? not sure)
   loginForm?: loginSchema;
