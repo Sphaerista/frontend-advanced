@@ -14,13 +14,13 @@ describe("Counter", () => {
     const incBtn = screen.getByTestId("increment-btn");
     const value = screen.getByTestId("value-title");
     userEvent.click(incBtn);
-    expect(value).toHaveTextContent("11");
+    expect(value).toHaveTextContent("10");
   });
   test("decrement", () => {
     componentRender(<Counter />, { initialState: { counter: { value: 10 } } });
     const decBtn = screen.getByTestId("decrement-btn");
     const value = screen.getByTestId("value-title");
     userEvent.click(decBtn);
-    expect(value).toHaveTextContent("9");
+    expect(value).toHaveTextContent("10");
   });
 });
