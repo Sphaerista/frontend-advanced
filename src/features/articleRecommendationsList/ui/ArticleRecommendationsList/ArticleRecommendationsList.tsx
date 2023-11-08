@@ -24,7 +24,7 @@ export const ArticleRecommendationsList: React.FC<
   //   getArticleRecommendationsIsLoading
   // );
   // dispatch(fetchArticlesRecommendations());
-  if (isLoading || error) {
+  if (isLoading || error || !articles) {
     return null;
   }
   return (

@@ -100,11 +100,7 @@ export const EditableProfileCard: React.FC<EditableProfileCardProps> = (
 
   return (
     <DynamicModuleLoader reducers={reducers}>
-      <VStack
-        gap="8"
-        max
-        className={classNames(cls.editableProfileCard, {}, [className])}
-      >
+      <VStack gap="8" max className={classNames("", {}, [className])}>
         <EditableProfileCardHeader />
         {validateErrors?.length &&
           validateErrors.map((err) => (
@@ -112,6 +108,7 @@ export const EditableProfileCard: React.FC<EditableProfileCardProps> = (
               key={err}
               theme={ThemeText.ERROR}
               text={validateErrorTranslates[err]}
+              data-testid="EditableProfileCard.Error"
             />
           ))}
         <ProfileCard
