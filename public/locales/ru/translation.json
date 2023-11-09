@@ -9,6 +9,7 @@
   "login": "Войти",
   "logout": "Выйти",
   "profile": "Профиль",
+  "admin": "Админ",
   "username": "Пользователь",
   "password": "Пароль",
   "auth form": "Форма авторизации",
@@ -37,5 +38,7 @@
   "SCIENCE": "Наука",
   "Edit article with ID=": "Редакироание статьи с ID =",
   "Create article": "Создание статьи",
-  "Create new article": "Создание новой статьи"
+  "Create new article": "Создание новой статьи",
+  "Admin Panel Page": "Админ панель",
+  "Forbidden Page": "Запрещённая страница"
 }

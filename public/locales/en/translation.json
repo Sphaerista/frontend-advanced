@@ -9,6 +9,7 @@
   "login": "Login",
   "logout": "Logout",
   "profile": "Profile",
+  "admin": "Admin",
   "username": "Username",
   "password": "Password",
   "auth form": "Authorization form",
@@ -37,5 +38,7 @@
   "SCIENCE": "Science",
   "Edit article with ID=": "Edit article with ID =",
   "Create article": "Create article",
-  "Create new article": "Create new article"
+  "Create new article": "Create new article",
+  "Admin Panel Page": "Admin Panel Page",
+  "Forbidden Page": "Forbidden Page"
 }
