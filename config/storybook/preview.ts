@@ -3,6 +3,7 @@ import StyleDecorator from "../../src/shared/config/Decorators/StyleDecorator";
 import ThemeDecorator from "../../src/shared/config/Decorators/ThemeDecorator";
 import RouterDecorator from "../../src/shared/config/Decorators/RouterDecorator";
 import StoreDecorator from "../../src/shared/config/Decorators/StoreDecorator";
+import SuspenseDecorator from "../../src/shared/config/Decorators/SuspenseDecorator";
 // import TranslationDecorator from "../../src/shared/config/Decorators/TranslationDecorator";
 import { Theme } from "../../src/app/providers/ThemeProvider/lib/ThemeContext";
 const preview: Preview = {
@@ -19,6 +20,7 @@ const preview: Preview = {
     StyleDecorator,
     ThemeDecorator(Theme.LIGHT),
     RouterDecorator,
+    SuspenseDecorator,
     StoreDecorator({
       loginForm: {
         username: "aa",

@@ -27,6 +27,7 @@ interface TextProps {
   theme?: ThemeText;
   align?: AlignText;
   size?: SizeText;
+  children?: string;
 
   "data-testid"?: string;
 }

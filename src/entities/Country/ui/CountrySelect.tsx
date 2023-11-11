@@ -22,7 +22,6 @@ const options = [
 export const CountrySelect: React.FC<CountrySelectProps> = memo((props) => {
   const { className, value, onChange, readonly } = props;
   const { t } = useTranslation();
-  console.log(value, options, readonly);
 
   const onChangeHandler = useCallback(
     (value: string) => {

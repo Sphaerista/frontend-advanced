@@ -7,6 +7,12 @@ import LanguageDetector from "i18next-browser-languagedetector";
 // have a look at the Quick start guide
 // for passing in lng and translations on init
 
+declare module "i18next" {
+  interface CustomTypeOptions {
+    returnNull: false;
+  }
+}
+
 i18n
   .use(Backend)
   .use(LanguageDetector)
@@ -14,6 +20,7 @@ i18n
   .init({
     fallbackLng: "en",
     // debug: __IS_DEV__ ? true : false,
+    returnNull: false,
 
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
