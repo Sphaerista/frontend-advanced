@@ -9,7 +9,7 @@ import { useInitialEffect } from "shared/lib/hooks/useInitialEffect";
 import { useCallback } from "react";
 import { Country } from "entities/Country";
 import { getProfileError, getProfileIsLoading } from "pages/ProfilePage";
-import { ValidateProfileError } from "../../model/types/editableProfileCardSchema";
+import { ValidateProfileError } from "../../model/consts/consts";
 import { getProfileForm } from "../../model/selectors/getProfileForm/getProfileForm";
 import { getProfileReadonly } from "../../model/selectors/getProfileReadonly/getProfileReadonly";
 import { ProfileCard } from "entities/Profile";

@@ -1,8 +1,8 @@
 import { Country } from "entities/Country";
-import { ValidateProfileError } from "../types/editableProfileCardSchema";
 import { ProfileSchema } from "features/editableProfileCard/model/types/editableProfileCardSchema";
 import { profileActions, profileReducer } from "./profileSlice";
 import { updateProfileData } from "../services/updateProfileData/updateProfileData";
+import { ValidateProfileError } from "../consts/consts";
 
 describe("profileSlice.test", () => {
   const data = {

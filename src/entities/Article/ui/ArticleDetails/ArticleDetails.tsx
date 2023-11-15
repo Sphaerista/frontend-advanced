@@ -20,10 +20,8 @@ import { Skeleton } from "shared/ui/Skeleton/Skeleton";
 import { Avatar } from "shared/ui/Avatar/Avatar";
 import CalendarIcon from "shared/assets/icons/calendar.svg";
 import EyeViews from "shared/assets/icons/eye-views.svg";
-import {
-  ArticleBlock,
-  ArticleBlockType,
-} from "entities/Article/model/types/article";
+import { ArticleBlock } from "entities/Article/model/types/article";
+import { ArticleBlockType } from "entities/Article/model/consts/consts";
 import { ArticleCodeBlockComponent } from "../ArticleCodeBlockComponent/ArticleCodeBlockComponent";
 import { ArticleImageBlockComponent } from "../ArticleImageBlockComponent/ArticleImageBlockComponent";
 import { ArticleTextBlockComponent } from "../ArticleTextBlockComponent/ArticleTextBlockComponent";

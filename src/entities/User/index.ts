@@ -11,11 +11,11 @@ import { UserSchema, User } from "./model/types/userSchema";
 export {
   userActions,
   userReducer,
-  UserSchema,
-  User,
   getUserAuthData,
   getUserInited,
   isUserAdmin,
   isUserManager,
   getUserRoles,
 };
+
+export type { UserSchema, User };

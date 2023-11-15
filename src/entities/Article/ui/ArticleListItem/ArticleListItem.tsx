@@ -1,11 +1,10 @@
 import { classNames } from "shared/lib/classNames/classNames";
 import cls from "./ArticleListItem.module.scss";
+import { Article, ArticleTextBlock } from "../../model/types/article";
 import {
-  Article,
   ArticleBlockType,
-  ArticleTextBlock,
   ArticleView,
-} from "../../model/types/article";
+} from "entities/Article/model/consts/consts";
 import { Text } from "shared/ui/Text/Text";
 import EyeView from "../../../../shared/assets/icons/eye-views.svg";
 import { Card } from "shared/ui/Card/Card";
