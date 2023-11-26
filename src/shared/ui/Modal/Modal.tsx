@@ -1,33 +1,25 @@
 import { Mods, classNames } from "shared/lib/classNames/classNames";
 import cls from "./Modal.module.scss";
-import {
-  ReactNode,
-  useEffect,
-  useRef,
-  useState,
-  useCallback,
-  MutableRefObject,
-} from "react";
+import { ReactNode, lazy } from "react";
 import { Portal } from "../Portal/Portal";
 import { useTheme } from "app/providers/ThemeProvider";
+import { useModal } from "shared/lib/hooks/useModal";
 
 interface ModalProps {
   className?: string;
   children?: ReactNode;
   isOpen?: boolean;
   onClose?: () => void;
+  lazy?: boolean;
 }
 
 // const ANIMATION_DELAY = 200;
 
 export const Modal: React.FC<ModalProps> = (props) => {
-  const { className, children, isOpen, onClose } = props;
-
-  const [isClosing, setIsClosing] = useState(false);
-  const [isMounted, setIsMounted] = useState(false);
-  const timeRef = useRef() as MutableRefObject<ReturnType<typeof setTimeout>>;
-
+  const { className, children, isOpen, onClose, lazy } = props;
   const { theme } = useTheme();
+
+  const { closeHandler, isClosing, isMounted } = useModal({ onClose, isOpen });
 
   const mods: Mods = {
     [cls.opened]: isOpen,
@@ -38,41 +30,9 @@ export const Modal: React.FC<ModalProps> = (props) => {
     e.stopPropagation();
   };
 
-  const closeHandler = useCallback(() => {
-    if (onClose) {
-      // setIsClosing(true);
-      // timeRef.current = setTimeout(() => {
-      onClose();
-      setIsMounted(false);
-      //   setIsClosing(false);
-      // }, ANIMATION_DELAY);
-    }
-  }, [onClose]);
-
-  const onKeyDown = useCallback(
-    (e: KeyboardEvent) => {
-      if (e.key === "Escape") {
-        closeHandler();
-      }
-    },
-    [closeHandler]
-  );
-
-  useEffect(() => {
-    if (isOpen) {
-      setIsMounted(true);
-    }
-  }, [isOpen]);
-
-  useEffect(() => {
-    if (isOpen) {
-      window.addEventListener("keydown", onKeyDown);
-    }
-    return () => {
-      clearTimeout(timeRef.current);
-      window.removeEventListener("keydown", onKeyDown);
-    };
-  }, [isOpen, onKeyDown]);
+  if (lazy && !isMounted) {
+    return null;
+  }
 
   return (
     <Portal>
