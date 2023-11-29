@@ -1,8 +1,10 @@
 import { BugButton } from "app/providers/ErrorBoundary";
+import { RatingCard } from "entities/RatingCard";
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { ListBox } from "shared/ui/Popups/ui/ListBox/ListBox";
 import { HStack } from "shared/ui/Stack";
+import { StarRating } from "shared/ui/StarRating/StarRating";
 import { Page } from "widgets/Page/Page";
 
 const MainPage = () => {
@@ -28,6 +30,11 @@ const MainPage = () => {
       </HStack>
       <div>c</div>
       <div>d</div>
+      <RatingCard
+        title={t("How is the article")}
+        feedbackTitle={t("Leave your feedback")}
+        hasFeedback={true}
+      />
     </Page>
   );
 };

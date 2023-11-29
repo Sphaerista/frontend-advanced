@@ -1,0 +1,25 @@
+.starRating {
+  display: flex;
+}
+.divIcon {
+  display: flex;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.starIcon {
+  display: block;
+  margin: auto;
+  scale: 2;
+}
+
+.normal {
+  fill: none;
+}
+.hovered {
+  fill: var(--primary-color);
+}
+.selected {
+  cursor: auto;
+}
