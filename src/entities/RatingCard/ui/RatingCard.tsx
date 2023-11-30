@@ -17,14 +17,22 @@ interface RatingCardProps {
   hasFeedback?: boolean;
   onCancel?: (starsCount: number) => void;
   onAccept?: (starsCount: number, feedback?: string) => void;
+  rate?: number;
 }
 
 export const RatingCard: React.FC<RatingCardProps> = (props) => {
-  const { className, title, feedbackTitle, hasFeedback, onAccept, onCancel } =
-    props;
+  const {
+    className,
+    title,
+    feedbackTitle,
+    hasFeedback,
+    onAccept,
+    onCancel,
+    rate,
+  } = props;
   const { t } = useTranslation();
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [starsCount, setStarsCount] = useState(0);
+  const [starsCount, setStarsCount] = useState(rate || 0);
   const [feedback, setFeedback] = useState("");
 
   const onSelectStars = useCallback(
@@ -50,10 +58,10 @@ export const RatingCard: React.FC<RatingCardProps> = (props) => {
   }, [starsCount, onAccept]);
 
   return (
-    <Card className={classNames(cls.ratingCard, {}, [className])}>
+    <Card className={classNames(cls.ratingCard, {}, [className])} max>
       <VStack align="center" gap="8">
-        <Text title={title} />
-        <StarRating onSelect={onSelectStars} />
+        <Text title={starsCount >= 1 ? t("Thanks for rating") : title} />
+        <StarRating selectedStars={starsCount} onSelect={onSelectStars} />
       </VStack>
       <Modal isOpen={isModalOpen} lazy>
         <VStack gap="32" max>
