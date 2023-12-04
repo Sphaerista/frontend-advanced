@@ -2,9 +2,6 @@ import { classNames } from "shared/lib/classNames/classNames";
 import { SizeText, Text } from "shared/ui/Text/Text";
 import { ArticleList } from "entities/Article";
 import { useTranslation } from "react-i18next";
-import { useSelector } from "react-redux";
-import { getArticleRecommendations } from "pages/ArticleDetailsPage/model/slices/articleDetailsPageRecommendationsSlice";
-import { getArticleRecommendationsIsLoading } from "pages/ArticleDetailsPage/model/selectors/recommendations";
 import { VStack } from "shared/ui/Stack";
 import { useArticleRecommendationsList } from "../../api/articleRecommendationsApi";
 

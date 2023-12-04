@@ -1,6 +1,6 @@
 import { Mods, classNames } from "shared/lib/classNames/classNames";
 import cls from "./Modal.module.scss";
-import { ReactNode, lazy } from "react";
+import { ReactNode } from "react";
 import { Portal } from "../Portal/Portal";
 import { useTheme } from "app/providers/ThemeProvider";
 import { useModal } from "shared/lib/hooks/useModal";

@@ -1,10 +1,9 @@
-import React, { memo, useCallback, useState } from "react";
+import { memo, useCallback, useState } from "react";
 import { classNames } from "shared/lib/classNames/classNames";
 import cls from "./Navbar.module.scss";
 import { useTranslation } from "react-i18next";
 import { Button, ThemeButton } from "shared/ui/Button/Button";
 import { LoginModal } from "features/AuthByUsername/ui";
-import { USER_LOCALSTORAGE_KEY } from "shared/const/localstorage";
 import { useSelector } from "react-redux";
 import { getUserAuthData } from "entities/User";
 import { Text, ThemeText } from "shared/ui/Text/Text";

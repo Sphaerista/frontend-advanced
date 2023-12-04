@@ -1,7 +1,6 @@
-import { useState } from "react";
 import { Listbox as HListbox } from "@headlessui/react";
 import cls from "./ListBox.module.scss";
-import { Mods, classNames } from "shared/lib/classNames/classNames";
+import { classNames } from "shared/lib/classNames/classNames";
 import { Button } from "../../../Button/Button";
 import { ReactNode } from "react";
 import { HStack } from "../../../Stack";

@@ -1,4 +1,3 @@
-import { classNames } from "shared/lib/classNames/classNames";
 import cls from "./NotificationButton.module.scss";
 import { Popover } from "shared/ui/Popups";
 import { Button, ThemeButton } from "shared/ui/Button/Button";

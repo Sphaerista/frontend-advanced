@@ -5,7 +5,7 @@ import { Button, ThemeButton } from "shared/ui/Button/Button";
 import { Input } from "shared/ui/Input/Input";
 import { useSelector } from "react-redux";
 import { loginActions, loginReducer } from "../../model/slice/loginSlice";
-import { memo, useCallback, useEffect } from "react";
+import { memo, useCallback } from "react";
 import { loginByUsername } from "features/AuthByUsername/model/services/loginByUsername/loginByUsername";
 import { Text, ThemeText } from "shared/ui/Text/Text";
 import i18n from "shared/config/i18n/i18n";

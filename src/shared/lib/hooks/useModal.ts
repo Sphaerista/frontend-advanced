@@ -1,4 +1,3 @@
-import { useTheme } from "app/providers/ThemeProvider";
 import {
   MutableRefObject,
   useCallback,

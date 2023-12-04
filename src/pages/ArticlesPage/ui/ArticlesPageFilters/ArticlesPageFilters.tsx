@@ -25,7 +25,6 @@ import { Card } from "shared/ui/Card/Card";
 import { Input } from "shared/ui/Input/Input";
 import { fetchArticlesList } from "../../model/services/fetchArticlesList/fetchArticlesList";
 import { useDebounce } from "shared/lib/hooks/useDebounce";
-import { TabItem, Tabs } from "shared/ui/Tabs/Tabs";
 interface ArticlesPageFiltersProps {
   className?: string;
 }
