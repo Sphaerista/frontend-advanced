@@ -4,7 +4,6 @@ import { classNames } from "shared/lib/classNames/classNames";
 import { ReactNode } from "react";
 import { DropdownDirection } from "shared/types/ui";
 import { AppLink } from "../../../AppLink/AppLink";
-import { RoutePath } from "shared/config/routeConfig/routeConfig";
 import { mapDirectionClass } from "../../styles/consts";
 import popupCls from "../../styles/popup.module.scss";
 
