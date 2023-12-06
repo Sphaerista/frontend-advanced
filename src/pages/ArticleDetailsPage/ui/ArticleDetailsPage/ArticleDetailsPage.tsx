@@ -9,7 +9,7 @@ import {
   ReducersList,
 } from "shared/lib/components/DynamicModuleLoader/DynamicModuleLoader";
 import { Page } from "widgets/Page/Page";
-import { articleDeatilsPageReducer } from "../../model/slices";
+import { articleDetailsPageReducer } from "../../model/slices";
 import { ArticleDetailsPageHeader } from "../ArticleDetailsPageHeader/ArticleDetailsPageHeader";
 import { VStack } from "shared/ui/Stack";
 import { ArticleRecommendationsList } from "features/articleRecommendationsList";
@@ -21,7 +21,7 @@ interface ArticleDetailsPageProps {
 }
 
 const reducers: ReducersList = {
-  articleDetailsPage: articleDeatilsPageReducer,
+  articleDetailsPage: articleDetailsPageReducer,
 };
 
 const ArticleDetailsPage: React.FC<ArticleDetailsPageProps> = (props) => {
