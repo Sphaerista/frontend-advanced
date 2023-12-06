@@ -9,7 +9,7 @@ import {
 } from "entities/User";
 import { useCallback } from "react";
 import { useTranslation } from "react-i18next";
-import { RoutePath } from "shared/const/router";
+import { getRouteAdmin, getRouteProfile } from "shared/const/router";
 
 interface AvatarDropdownProps {
   className?: string;
@@ -37,9 +37,9 @@ export const AvatarDropdown: React.FC<AvatarDropdownProps> = (props) => {
       direction="bottom left"
       items={[
         ...(isAdminPanelAvailable
-          ? [{ content: t("admin"), href: RoutePath.admin_panel }]
+          ? [{ content: t("admin"), href: getRouteAdmin() }]
           : []),
-        { content: t("Profile"), href: RoutePath.profile + authData?.id },
+        { content: t("Profile"), href: getRouteProfile(authData?.id) },
         { content: t("logout"), onClick: onLogout },
       ]}
       trigger={<Avatar size={30} src={authData?.avatar} />}

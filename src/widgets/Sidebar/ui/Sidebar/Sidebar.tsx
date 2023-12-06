@@ -62,7 +62,7 @@ export const Sidebar: React.FC<SidebarProps> = memo((props) => {
 {
   /* <AppLink
           theme={AppLinkTheme.SECONDARY}
-          to={RoutePath.main}
+          to={getRouteMain()}
           className={cls.item}
         >
           <Home className={cls.icon} />
@@ -70,7 +70,7 @@ export const Sidebar: React.FC<SidebarProps> = memo((props) => {
         </AppLink>
         <AppLink
           theme={AppLinkTheme.SECONDARY}
-          to={RoutePath.about}
+          to={getRouteAbout}
           className={cls.item}
         >
           <About className={cls.icon} />
