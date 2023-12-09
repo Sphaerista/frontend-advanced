@@ -10,14 +10,11 @@ export function buildPlugins({
   apiUrl,
   project,
 }: BuildOptions): webpack.WebpackPluginInstance[] {
-  return [
+  const isProd = !isDev;
+  const plugins = [
     new webpack.ProgressPlugin(),
     new HtmlWebpackPlugin({
       template: paths.html,
-    }),
-    new MiniCssExrtactPlugin({
-      filename: "css/[name].[contenthash:8].css",
-      chunkFilename: "css/[name].[contenthash:8].css",
     }),
     new webpack.DefinePlugin({
       __IS_DEV__: JSON.stringify(isDev),
@@ -34,4 +31,15 @@ export function buildPlugins({
       },
     }),
   ];
+
+  if (isProd) {
+    plugins.push(
+      new MiniCssExrtactPlugin({
+        filename: "css/[name].[contenthash:8].css",
+        chunkFilename: "css/[name].[contenthash:8].css",
+      })
+    );
+  }
+
+  return plugins;
 }
