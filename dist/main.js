@@ -1,1 +1,6 @@
-(()=>{"use strict";console.log("first")})();
+(() => {
+  "use strict";
+  console.log("first");
+})();
+
+// check git date
