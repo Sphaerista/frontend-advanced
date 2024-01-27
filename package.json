@@ -11,6 +11,8 @@
     "build:dev": "webpack --env mode=development",
     "lint:ts": "eslint \"**/*.{ts,tsx}\"",
     "test:unit": "jest --config ./config/jest/jest.config.ts",
+    "test_cover": "jest  --coverage",
+    "report_cover": "cat ./coverage/lcov.info | codecov",
     "test:ui": "npx loki test",
     "test:ui:ok": "npx loki approve",
     "test:ui:ci": "npx loki --requireReference --reactUri file:./storybook-static",
@@ -54,6 +56,7 @@
     "@typescript-eslint/parser": "^5.12.1",
     "@vitejs/plugin-react": "^2.2.0",
     "babel-loader": "^8.2.3",
+    "codecov.io": "^0.1.6",
     "css-loader": "^6.6.0",
     "eslint": "^8.10.0",
     "eslint-plugin-i18next": "^5.1.2",
@@ -67,6 +70,7 @@
     "html-webpack-plugin": "^5.5.0",
     "husky": "^8.0.0",
     "identity-obj-proxy": "^3.0.0",
+    "istanbul": "^0.4.5",
     "jest": "^27.5.1",
     "json-server": "^0.17.0",
     "loki": "^0.31.2",
@@ -111,5 +115,12 @@
         "preset": "iPhone 7"
       }
     }
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "json",
+      "html"
+    ]
   }
 }
