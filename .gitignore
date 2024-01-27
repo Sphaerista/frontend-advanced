@@ -3,6 +3,6 @@
 /build
 
 /storybook-static
-/coverage
+/coverage/lcov-report
 .loki/report.json
 .loki/report.html

@@ -1,0 +1,1159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1706384262495" clover="3.2.0">
+  <project timestamp="1706384262496" name="All files">
+    <metrics statements="589" coveredstatements="383" conditionals="212" coveredconditionals="105" methods="192" coveredmethods="99" elements="993" coveredelements="587" complexity="0" loc="589" ncloc="589" packages="89" files="99" classes="99"/>
+    <package name="config.jest">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="jestEmptyComponent.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\config\jest\jestEmptyComponent.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.app.providers.StoreProvider">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\app\providers\StoreProvider\index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.app.providers.StoreProvider.config">
+      <metrics statements="31" coveredstatements="17" conditionals="10" coveredconditionals="4" methods="8" coveredmethods="6"/>
+      <file name="reducerManager.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\app\providers\StoreProvider\config\reducerManager.ts">
+        <metrics statements="24" coveredstatements="10" conditionals="10" coveredconditionals="4" methods="6" coveredmethods="4"/>
+        <line num="17" count="9" type="stmt"/>
+        <line num="19" count="9" type="stmt"/>
+        <line num="21" count="9" type="stmt"/>
+        <line num="23" count="9" type="stmt"/>
+        <line num="25" count="9" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="30" count="57" type="cond" truecount="1" falsecount="1"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="38" count="57" type="stmt"/>
+        <line num="42" count="8" type="cond" truecount="3" falsecount="1"/>
+        <line num="43" count="8" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="53" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+      </file>
+      <file name="store.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\app\providers\StoreProvider\config\store.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="20" count="9" type="stmt"/>
+        <line num="29" count="9" type="stmt"/>
+        <line num="31" count="9" type="stmt"/>
+        <line num="35" count="9" type="stmt"/>
+        <line num="40" count="9" type="stmt"/>
+        <line num="48" count="9" type="stmt"/>
+        <line num="50" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.app.providers.StoreProvider.ui">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="StoreProvider.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\app\providers\StoreProvider\ui\StoreProvider.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="10" type="stmt"/>
+        <line num="17" count="9" type="stmt"/>
+        <line num="22" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.app.providers.ThemeProvider">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\app\providers\ThemeProvider\index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.app.providers.ThemeProvider.lib">
+      <metrics statements="16" coveredstatements="5" conditionals="6" coveredconditionals="2" methods="2" coveredmethods="1"/>
+      <file name="ThemeContext.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\app\providers\ThemeProvider\lib\ThemeContext.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+      <file name="useTheme.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\app\providers\ThemeProvider\lib\useTheme.ts">
+        <metrics statements="14" coveredstatements="3" conditionals="6" coveredconditionals="2" methods="2" coveredmethods="1"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.app.providers.ThemeProvider.ui">
+      <metrics statements="14" coveredstatements="3" conditionals="4" coveredconditionals="2" methods="5" coveredmethods="0"/>
+      <file name="ThemeProvider.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\app\providers\ThemeProvider\ui\ThemeProvider.tsx">
+        <metrics statements="7" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="0"/>
+        <line num="9" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+      </file>
+      <file name="ThemeProviderDecorator.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\app\providers\ThemeProvider\ui\ThemeProviderDecorator.tsx">
+        <metrics statements="7" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.entities.Article">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\entities\Article\index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.entities.Article.model.consts">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="consts.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\entities\Article\model\consts\consts.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.entities.Article.model.selectors">
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <file name="articleDetails.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\entities\Article\model\selectors\articleDetails.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="2" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+    <package name="src.entities.Article.model.services.fetchArticleById">
+      <metrics statements="11" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="fetchArticleById.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\entities\Article\model\services\fetchArticleById\fetchArticleById.ts">
+        <metrics statements="11" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="22" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.entities.Article.model.slice">
+      <metrics statements="11" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <file name="articleDetailsSlice.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\entities\Article\model\slice\articleDetailsSlice.ts">
+        <metrics statements="11" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.entities.Article.ui.ArticleCodeBlockComponent">
+      <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="ArticleCodeBlockComponent.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\entities\Article\ui\ArticleCodeBlockComponent\ArticleCodeBlockComponent.tsx">
+        <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.entities.Article.ui.ArticleDetails">
+      <metrics statements="23" coveredstatements="2" conditionals="10" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="ArticleDetails.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\entities\Article\ui\ArticleDetails\ArticleDetails.tsx">
+        <metrics statements="23" coveredstatements="2" conditionals="10" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="81" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="88" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="103" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="104" count="0" type="stmt"/>
+        <line num="106" count="0" type="stmt"/>
+        <line num="132" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.entities.Article.ui.ArticleImageBlockComponent">
+      <metrics statements="3" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="ArticleImageBlockComponent.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\entities\Article\ui\ArticleImageBlockComponent\ArticleImageBlockComponent.tsx">
+        <metrics statements="3" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.entities.Article.ui.ArticleList">
+      <metrics statements="11" coveredstatements="2" conditionals="11" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <file name="ArticleList.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\entities\Article\ui\ArticleList\ArticleList.tsx">
+        <metrics statements="11" coveredstatements="2" conditionals="11" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="57" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.entities.Article.ui.ArticleListItem">
+      <metrics statements="15" coveredstatements="2" conditionals="6" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="ArticleListItem.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\entities\Article\ui\ArticleListItem\ArticleListItem.tsx">
+        <metrics statements="10" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="38" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="72" count="0" type="stmt"/>
+      </file>
+      <file name="ArticleListItemSkeleton.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\entities\Article\ui\ArticleListItem\ArticleListItemSkeleton.tsx">
+        <metrics statements="5" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.entities.Article.ui.ArticleTextBlockComponent">
+      <metrics statements="4" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="ArticleTextBlockComponent.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\entities\Article\ui\ArticleTextBlockComponent\ArticleTextBlockComponent.tsx">
+        <metrics statements="4" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.entities.Counter">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\entities\Counter\index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.entities.Counter.model.selectors.getCounter">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="getCounter.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\entities\Counter\model\selectors\getCounter\getCounter.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.entities.Counter.model.selectors.getCounterValue">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="getCounterValue.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\entities\Counter\model\selectors\getCounterValue\getCounterValue.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.entities.Counter.model.slice">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="counterSlice.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\entities\Counter\model\slice\counterSlice.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.entities.Counter.ui">
+      <metrics statements="8" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <file name="Counter.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\entities\Counter\ui\Counter.tsx">
+        <metrics statements="8" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.entities.Country">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\entities\Country\index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.entities.Country.model.types">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="country.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\entities\Country\model\types\country.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.entities.Country.ui">
+      <metrics statements="7" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="CountrySelect.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\entities\Country\ui\CountrySelect.tsx">
+        <metrics statements="7" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="15" count="7" type="stmt"/>
+        <line num="22" count="7" type="stmt"/>
+        <line num="23" count="11" type="stmt"/>
+        <line num="24" count="10" type="stmt"/>
+        <line num="26" count="10" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="33" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.entities.Profile">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\entities\Profile\index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.entities.Profile.ui.ProfileCard">
+      <metrics statements="9" coveredstatements="8" conditionals="6" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <file name="ProfileCard.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\entities\Profile\ui\ProfileCard\ProfileCard.tsx">
+        <metrics statements="9" coveredstatements="8" conditionals="6" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="40" count="41" type="stmt"/>
+        <line num="41" count="40" type="stmt"/>
+        <line num="43" count="40" type="cond" truecount="2" falsecount="0"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="55" count="38" type="cond" truecount="1" falsecount="1"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="72" count="38" type="stmt"/>
+        <line num="76" count="38" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.entities.User">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\entities\User\index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.entities.User.model.consts">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="consts.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\entities\User\model\consts\consts.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.entities.User.model.selectors">
+      <metrics statements="7" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="1"/>
+      <file name="getUserAuthData.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\entities\User\model\selectors\getUserAuthData.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="90" type="stmt"/>
+      </file>
+      <file name="getUserInited.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\entities\User\model\selectors\getUserInited.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="5" type="stmt"/>
+      </file>
+      <file name="roleSelectors.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\entities\User\model\selectors\roleSelectors.ts">
+        <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.entities.User.model.slice">
+      <metrics statements="11" coveredstatements="4" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="userSlice.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\entities\User\model\slice\userSlice.ts">
+        <metrics statements="11" coveredstatements="4" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="31" count="5" type="stmt"/>
+        <line num="32" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.features.AuthByUsername.model.selectors.getLoginError">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="getLoginError.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\features\AuthByUsername\model\selectors\getLoginError\getLoginError.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.features.AuthByUsername.model.selectors.getLoginIsLoading">
+      <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="getLoginIsLoading.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\features\AuthByUsername\model\selectors\getLoginIsLoading\getLoginIsLoading.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="2" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+    <package name="src.features.AuthByUsername.model.selectors.getLoginPassword">
+      <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="getLoginPassword.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\features\AuthByUsername\model\selectors\getLoginPassword\getLoginPassword.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="2" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+    <package name="src.features.AuthByUsername.model.selectors.getLoginUsername">
+      <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="getLoginUsername.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\features\AuthByUsername\model\selectors\getLoginUsername\getLoginUsername.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="2" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+    <package name="src.features.AuthByUsername.model.services.loginByUsername">
+      <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="loginByUsername.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\features\AuthByUsername\model\services\loginByUsername\loginByUsername.ts">
+        <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="26" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.features.AuthByUsername.model.slice">
+      <metrics statements="12" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="3"/>
+      <file name="loginSlice.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\features\AuthByUsername\model\slice\loginSlice.ts">
+        <metrics statements="12" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="3"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.features.LangSwitcher">
+      <metrics statements="6" coveredstatements="5" conditionals="4" coveredconditionals="2" methods="2" coveredmethods="1"/>
+      <file name="LangSwitcher.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\features\LangSwitcher\LangSwitcher.tsx">
+        <metrics statements="6" coveredstatements="5" conditionals="4" coveredconditionals="2" methods="2" coveredmethods="1"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="18" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.features.ScrollSave">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\features\ScrollSave\index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.features.ScrollSave.model.selectors">
+      <metrics statements="4" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="scrollSave.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\features\ScrollSave\model\selectors\scrollSave.ts">
+        <metrics statements="4" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
+      </file>
+    </package>
+    <package name="src.features.ScrollSave.model.slices">
+      <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="ScrollSaveSlice.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\features\ScrollSave\model\slices\ScrollSaveSlice.ts">
+        <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.features.ThemeSwitcher">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\features\ThemeSwitcher\index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.features.ThemeSwitcher.ui">
+      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="ThemeSwitcher.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\features\ThemeSwitcher\ui\ThemeSwitcher.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.features.editableProfileCard.model.consts">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="consts.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\features\editableProfileCard\model\consts\consts.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.features.editableProfileCard.model.selectors.getProfileData">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="getProfileData.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\features\editableProfileCard\model\selectors\getProfileData\getProfileData.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="86" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.features.editableProfileCard.model.selectors.getProfileError">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="getProfileError.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\features\editableProfileCard\model\selectors\getProfileError\getProfileError.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="86" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.features.editableProfileCard.model.selectors.getProfileForm">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="getProfileForm.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\features\editableProfileCard\model\selectors\getProfileForm\getProfileForm.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="62" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.features.editableProfileCard.model.selectors.getProfileIsLoading">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="getProfileIsLoading.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\features\editableProfileCard\model\selectors\getProfileIsLoading\getProfileIsLoading.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="83" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.features.editableProfileCard.model.selectors.getProfileReadonly">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="getProfileReadonly.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\features\editableProfileCard\model\selectors\getProfileReadonly\getProfileReadonly.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="160" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.features.editableProfileCard.model.selectors.getProfileValidateErrors">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="getProfileValidateErrors.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\features\editableProfileCard\model\selectors\getProfileValidateErrors\getProfileValidateErrors.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="85" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.features.editableProfileCard.model.services.fetchProfileData">
+      <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="fetchProfileData.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\features\editableProfileCard\model\services\fetchProfileData\fetchProfileData.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="14" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.features.editableProfileCard.model.services.updateProfileData">
+      <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="updateProfileData.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\features\editableProfileCard\model\services\updateProfileData\updateProfileData.ts">
+        <metrics statements="13" coveredstatements="13" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="19" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="28" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.features.editableProfileCard.model.services.validateProfileData">
+      <metrics statements="12" coveredstatements="11" conditionals="12" coveredconditionals="11" methods="1" coveredmethods="1"/>
+      <file name="validateProfileData.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\features\editableProfileCard\model\services\validateProfileData\validateProfileData.ts">
+        <metrics statements="12" coveredstatements="11" conditionals="12" coveredconditionals="11" methods="1" coveredmethods="1"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="9" type="cond" truecount="1" falsecount="1"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="9" type="stmt"/>
+        <line num="9" count="9" type="stmt"/>
+        <line num="11" count="9" type="cond" truecount="4" falsecount="0"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="14" count="9" type="cond" truecount="4" falsecount="0"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="17" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.features.editableProfileCard.model.slice">
+      <metrics statements="26" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="7"/>
+      <file name="profileSlice.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\features\editableProfileCard\model\slice\profileSlice.ts">
+        <metrics statements="26" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="7"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="27" count="29" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="52" count="3" type="stmt"/>
+        <line num="53" count="3" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="73" count="2" type="stmt"/>
+        <line num="74" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.features.editableProfileCard.ui.EditableProfileCard">
+      <metrics statements="27" coveredstatements="22" conditionals="14" coveredconditionals="6" methods="9" coveredmethods="4"/>
+      <file name="EditableProfileCard.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\features\editableProfileCard\ui\EditableProfileCard\EditableProfileCard.tsx">
+        <metrics statements="27" coveredstatements="22" conditionals="14" coveredconditionals="6" methods="9" coveredmethods="4"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="36" count="41" type="stmt"/>
+        <line num="37" count="40" type="stmt"/>
+        <line num="38" count="40" type="stmt"/>
+        <line num="39" count="40" type="stmt"/>
+        <line num="40" count="40" type="stmt"/>
+        <line num="41" count="40" type="stmt"/>
+        <line num="42" count="40" type="stmt"/>
+        <line num="43" count="40" type="stmt"/>
+        <line num="45" count="40" type="stmt"/>
+        <line num="53" count="40" type="stmt"/>
+        <line num="54" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="57" count="40" type="stmt"/>
+        <line num="59" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="64" count="40" type="stmt"/>
+        <line num="66" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="71" count="40" type="stmt"/>
+        <line num="73" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="78" count="40" type="stmt"/>
+        <line num="80" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="85" count="40" type="stmt"/>
+        <line num="87" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="92" count="40" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="99" count="40" type="stmt"/>
+        <line num="105" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.features.editableProfileCard.ui.EditableProfileCardHeader">
+      <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+      <file name="EditableProfileCardHeader.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\features\editableProfileCard\ui\EditableProfileCardHeader\EditableProfileCardHeader.tsx">
+        <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="40" type="stmt"/>
+        <line num="23" count="40" type="stmt"/>
+        <line num="25" count="40" type="stmt"/>
+        <line num="28" count="40" type="stmt"/>
+        <line num="29" count="40" type="stmt"/>
+        <line num="30" count="40" type="stmt"/>
+        <line num="31" count="40" type="stmt"/>
+        <line num="33" count="40" type="stmt"/>
+        <line num="34" count="4" type="stmt"/>
+        <line num="37" count="40" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="41" count="40" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="45" count="40" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.ArticlesPage.model.selectors">
+      <metrics statements="22" coveredstatements="14" conditionals="16" coveredconditionals="3" methods="11" coveredmethods="3"/>
+      <file name="articlesPageSelectors.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\pages\ArticlesPage\model\selectors\articlesPageSelectors.ts">
+        <metrics statements="22" coveredstatements="14" conditionals="16" coveredconditionals="3" methods="11" coveredmethods="3"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="23" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
+      </file>
+    </package>
+    <package name="src.pages.ArticlesPage.model.services.fetchArticlesList">
+      <metrics statements="15" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="fetchArticlesList.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\pages\ArticlesPage\model\services\fetchArticlesList\fetchArticlesList.ts">
+        <metrics statements="15" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="50" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.ArticlesPage.model.services.fetchNextArticlesPage">
+      <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="fetchNextArticlesPage.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\pages\ArticlesPage\model\services\fetchNextArticlesPage\fetchNextArticlesPage.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="22" count="2" type="cond" truecount="4" falsecount="0"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.ArticlesPage.model.slices">
+      <metrics statements="29" coveredstatements="4" conditionals="8" coveredconditionals="0" methods="13" coveredmethods="0"/>
+      <file name="articlesPageSlice.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\pages\ArticlesPage\model\slices\articlesPageSlice.ts">
+        <metrics statements="29" coveredstatements="4" conditionals="8" coveredconditionals="0" methods="13" coveredmethods="0"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="65" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="75" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="84" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="91" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="97" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.ProfilePage">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\pages\ProfilePage\index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.pages.ProfilePage.ui">
+      <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="ProfilePage.async.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\pages\ProfilePage\ui\ProfilePage.async.tsx">
+        <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.api">
+      <metrics statements="7" coveredstatements="3" conditionals="6" coveredconditionals="2" methods="2" coveredmethods="1"/>
+      <file name="api.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\shared\api\api.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="2" methods="0" coveredmethods="0"/>
+        <line num="4" count="3" type="stmt"/>
+      </file>
+      <file name="rtkApi.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\shared\api\rtkApi.ts">
+        <metrics statements="6" coveredstatements="2" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.config.i18n">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="i18nForTests.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\shared\config\i18n\i18nForTests.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.const">
+      <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="2"/>
+      <file name="localstorage.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\shared\const\localstorage.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+      </file>
+      <file name="router.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\shared\const\router.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="2"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.lib.classNames">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <file name="classNames.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\shared\lib\classNames\classNames.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="8" count="544" type="stmt"/>
+        <line num="12" count="437" type="stmt"/>
+        <line num="13" count="302" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.lib.components.DynamicModuleLoader">
+      <metrics statements="17" coveredstatements="17" conditionals="5" coveredconditionals="3" methods="5" coveredmethods="5"/>
+      <file name="DynamicModuleLoader.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\shared\lib\components\DynamicModuleLoader\DynamicModuleLoader.tsx">
+        <metrics statements="17" coveredstatements="17" conditionals="5" coveredconditionals="3" methods="5" coveredmethods="5"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="21" count="41" type="cond" truecount="1" falsecount="0"/>
+        <line num="23" count="40" type="stmt"/>
+        <line num="24" count="40" type="stmt"/>
+        <line num="26" count="40" type="stmt"/>
+        <line num="27" count="4" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="29" count="4" type="stmt"/>
+        <line num="31" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="32" count="4" type="stmt"/>
+        <line num="33" count="4" type="stmt"/>
+        <line num="37" count="4" type="stmt"/>
+        <line num="38" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="39" count="4" type="stmt"/>
+        <line num="40" count="4" type="stmt"/>
+        <line num="41" count="4" type="stmt"/>
+        <line num="47" count="40" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.lib.hooks">
+      <metrics statements="4" coveredstatements="3" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
+      <file name="useAppDispatch.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\shared\lib\hooks\useAppDispatch.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="80" type="stmt"/>
+      </file>
+      <file name="useInitialEffect.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\shared\lib\hooks\useInitialEffect.ts">
+        <metrics statements="3" coveredstatements="2" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="4" count="40" type="stmt"/>
+        <line num="5" count="4" type="cond" truecount="3" falsecount="1"/>
+        <line num="6" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.lib.tests">
+      <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <file name="componentRender.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\shared\lib\tests\componentRender.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="19" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="20" count="9" type="stmt"/>
+      </file>
+      <file name="testAsyncThunk.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\shared\lib\tests\testAsyncThunk.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="23" count="9" type="stmt"/>
+        <line num="24" count="9" type="stmt"/>
+        <line num="25" count="9" type="stmt"/>
+        <line num="27" count="9" type="stmt"/>
+        <line num="30" count="9" type="stmt"/>
+        <line num="31" count="9" type="stmt"/>
+        <line num="35" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.lib.url">
+      <metrics statements="6" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="2"/>
+      <file name="addQueryParams.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\shared\lib\url\addQueryParams.ts">
+        <metrics statements="6" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="2"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.ui.AppLink">
+      <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="AppLink.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\shared\ui\AppLink\AppLink.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="23" count="6" type="stmt"/>
+        <line num="25" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.ui.Avatar">
+      <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="Avatar.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\shared\ui\Avatar\Avatar.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="38" type="stmt"/>
+        <line num="14" count="38" type="stmt"/>
+        <line num="15" count="38" type="stmt"/>
+        <line num="16" count="5" type="stmt"/>
+        <line num="22" count="38" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.ui.Button">
+      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="Button.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\shared\ui\Button\Button.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="27" count="13" type="stmt"/>
+        <line num="36" count="42" type="stmt"/>
+        <line num="38" count="41" type="stmt"/>
+        <line num="45" count="41" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.ui.Card">
+      <metrics statements="3" coveredstatements="1" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="Card.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\shared\ui\Card\Card.tsx">
+        <metrics statements="3" coveredstatements="1" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.ui.Code">
+      <metrics statements="5" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="Code.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\shared\ui\Code\Code.tsx">
+        <metrics statements="5" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.ui.Input">
+      <metrics statements="10" coveredstatements="9" conditionals="5" coveredconditionals="4" methods="4" coveredmethods="3"/>
+      <file name="Input.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\shared\ui\Input\Input.tsx">
+        <metrics statements="10" coveredstatements="9" conditionals="5" coveredconditionals="4" methods="4" coveredmethods="3"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="28" count="78" type="stmt"/>
+        <line num="30" count="78" type="stmt"/>
+        <line num="31" count="28" type="stmt"/>
+        <line num="33" count="78" type="stmt"/>
+        <line num="35" count="78" type="stmt"/>
+        <line num="36" count="25" type="cond" truecount="1" falsecount="1"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="41" count="78" type="stmt"/>
+        <line num="45" count="78" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.ui.Loader">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Loader.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\shared\ui\Loader\Loader.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.ui.Popups.styles">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="consts.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\shared\ui\Popups\styles\consts.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="4" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.ui.Popups.ui.ListBox">
+      <metrics statements="5" coveredstatements="4" conditionals="7" coveredconditionals="3" methods="3" coveredmethods="2"/>
+      <file name="ListBox.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\shared\ui\Popups\ui\ListBox\ListBox.tsx">
+        <metrics statements="5" coveredstatements="4" conditionals="7" coveredconditionals="3" methods="3" coveredmethods="2"/>
+        <line num="38" count="11" type="stmt"/>
+        <line num="39" count="10" type="stmt"/>
+        <line num="40" count="10" type="stmt"/>
+        <line num="57" count="40" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.ui.Skeleton">
+      <metrics statements="4" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="Skeleton.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\shared\ui\Skeleton\Skeleton.tsx">
+        <metrics statements="4" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.ui.Stack">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\shared\ui\Stack\index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="src.shared.ui.Stack.Flex">
+      <metrics statements="9" coveredstatements="9" conditionals="5" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="Flex.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\shared\ui\Stack\Flex\Flex.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="5" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="10" count="10" type="stmt"/>
+        <line num="16" count="10" type="stmt"/>
+        <line num="21" count="10" type="stmt"/>
+        <line num="25" count="10" type="stmt"/>
+        <line num="47" count="10" type="stmt"/>
+        <line num="56" count="207" type="stmt"/>
+        <line num="58" count="206" type="stmt"/>
+        <line num="66" count="206" type="stmt"/>
+        <line num="70" count="206" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.ui.Stack.HStack">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="HStack.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\shared\ui\Stack\HStack\HStack.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="6" count="126" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.ui.Stack.VStack">
+      <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="VStack.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\shared\ui\Stack\VStack\VStack.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="6" count="82" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="81" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.shared.ui.Text">
+      <metrics statements="6" coveredstatements="6" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+      <file name="Text.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\shared\ui\Text\Text.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+        <line num="37" count="3" type="stmt"/>
+        <line num="43" count="3" type="stmt"/>
+        <line num="52" count="5" type="stmt"/>
+        <line num="54" count="5" type="stmt"/>
+        <line num="56" count="5" type="stmt"/>
+        <line num="62" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.widgets.Sidebar.model.selectors">
+      <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="getSideBarItems.ts" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\widgets\Sidebar\model\selectors\getSideBarItems.ts">
+        <metrics statements="5" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="28" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.widgets.Sidebar.ui.Sidebar">
+      <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
+      <file name="Sidebar.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\widgets\Sidebar\ui\Sidebar\Sidebar.tsx">
+        <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.widgets.Sidebar.ui.SidebarItem">
+      <metrics statements="7" coveredstatements="6" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="SidebarItem.tsx" path="C:\Users\iqles\OneDrive\Рабочий стол\rock star\frontend-advanced\src\widgets\Sidebar\ui\SidebarItem\SidebarItem.tsx">
+        <metrics statements="7" coveredstatements="6" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="21" count="6" type="cond" truecount="2" falsecount="2"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="24" count="6" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
